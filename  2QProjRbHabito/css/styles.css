@@ -1,0 +1,270 @@
+body {
+    background: #fff3de;
+    margin: 0;
+    width: 100%;
+}
+
+/*intro*/
+
+.rv {
+    height: 350px;
+    width: 950px;
+    margin: auto;
+    margin-top: 10px;
+
+    position: relative;
+}
+
+.rv p {
+    width: 400px;
+
+    position: absolute;
+    top: 100px;
+    left: 500px;
+    z-index: 0;
+}
+
+.rv h1 {
+    color: rgb(238,130,127);
+    font-size: 50px;
+
+    position: absolute;
+    top: -10px;
+    left: 580px;
+    z-index: -1;
+}
+
+/* text */
+
+.title, .sections b, .series p, footer span, body h1, body h2, body h3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.text, .sections p {
+    font-family: Helvetica;
+}
+
+.title, .text, .sections h3, .sections p, .series div, .header {
+    text-align: center;
+}
+
+.text {
+    margin: auto;
+}
+
+body a:visited {
+    color: black;
+}
+
+/* image */
+
+ .rv img, .redflavor, .header div {
+    margin: auto;
+}
+
+ .rv img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    border: 2px solid white;
+    width: 450;
+    height: 300;
+    
+    float: left;
+    position: absolute;
+    left: 10px;
+    z-index: -3;
+}
+
+/* header */
+
+.logo {
+    height: 50px;
+    margin-right: 10px;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.header div {
+    background: #ffd5c4;
+    padding: 10px;
+    width: 100%;
+    border-bottom: white 2px solid;
+}
+
+.redflavor {
+    width: 350px;
+    height: 50px;
+}
+
+.leftarrow {
+    position: absolute;
+    left: 60px;
+    top: 20px;
+}
+
+.rightarrow {
+    position: absolute;
+    right: 60px;
+    top: 20px;
+}
+
+.leftarrow, .rightarrow {
+    height: 30px;
+    width: 105px;
+}
+
+/* sections */
+
+.sections, .series {
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+.sections img {
+    margin-bottom: 20px;
+    width: 100%;
+    border: 2px solid white;
+    border-radius: 2px;
+}
+
+.sections, .series {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.sections div {
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-top: 10px;
+}
+
+.sections p {
+    margin: 0;
+}
+
+.preview  {
+    width: 200px;
+    height: 200px;
+}
+
+/* footer */
+
+footer {
+    display: block;
+    width: 100%
+}
+
+footer div {
+    background: pink;
+    padding: 30px;
+    margin-top: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.name, .where {
+    border-radius: 6px;
+    border: white 2px solid;
+    position: relative;
+    bottom: 7px;
+}
+
+.name {
+    background-color: white;
+}
+
+.where {
+    margin-right: 20px;
+    margin-left: 10px;
+    color: white;
+}
+
+footer img {
+    width: 30px;
+    height: 30px;
+}
+
+footer span {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* discography */
+
+.cover {
+    width: 100px;
+    height: 100px;
+}
+
+.minialbum {
+    width: 150px;
+    height: 150px;
+}
+
+.series div {
+    margin: 10px;
+    margin-top: 0px;
+    padding: 20px;
+    border: 3px solid white;
+    background: #fcbdb1;
+    width: 400px;
+}
+
+.seriestitle {
+    border: 5px solid white;
+    border-radius: 6px;
+    width: 900px;
+    margin: auto;
+}
+
+/*embedded video*/
+
+.queendom {
+    width: 900px;
+    height: 300px;
+    margin: auto;
+
+    position: relative;
+}
+
+.queendom p {
+    width: 400px;
+
+    position: absolute;
+    left: 470px;
+    bottom: 60px;
+    z-index: 0;
+}
+
+.queendom h1 {
+    color: rgb(238,130,127);
+
+    position: absolute;
+    right: 175px;
+    top: 30px;
+    z-index: -3;
+}
+
+.queendom h3 {
+
+    position: absolute;
+    right: 170px;
+    top: 65px;
+    z-index: -3;
+}
+
+.embed {
+    float: left;
+
+    position: absolute;
+    top: 35px;
+    left: 35px;
+}
