@@ -1,0 +1,186 @@
+body {
+    background: #fff3de;
+}
+
+h1, .charts {
+    color: #DDC357;
+}
+
+h2 {
+    color: #3D91D4;
+}
+
+.sections h3, .sections p, .series div {
+    text-align: center;
+}
+
+header div {
+    background: #FFD5C4;
+}
+
+/* footer */
+
+footer div {
+    background: pink;
+}
+
+/*--------------------------------------------*/
+
+/*intro*/
+
+.rv {
+    height: 350px;
+    width: 950px;
+    margin: auto;
+    margin-top: 10px;
+
+    position: relative;
+}
+
+.rv p, .rv ul {
+    width: 400px;
+
+    position: absolute;
+    top: 100px;
+    left: 470;
+    z-index: 0;
+}
+
+.rv h1 {
+    font-size: 50px;
+
+    position: absolute;
+    left: 490px;
+    z-index: -1;
+}
+
+ .rv img, .redflavor, header div {
+    margin: auto;
+}
+
+ .rv img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: block;
+    width: 420;
+    height: 280;
+    
+    float: left;
+    position: absolute;
+    left: 30px;
+    z-index: -3;
+}
+
+/* sections */
+
+.sections, .series {
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+.sections img {
+    margin-bottom: 20px;
+    border-radius: 2px;
+}
+
+.sections, .series {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.sections div {
+    margin-right: 25px;
+    padding-top: 10px;
+}
+
+.sections p {
+    margin: 0;
+}
+
+.preview  {
+    width: 200px;
+    height: 200px;
+}
+
+/* discography */
+
+.cover {
+    width: 100px;
+    height: 100px;
+}
+
+.minialbum {
+    width: 150px;
+    height: 150px;
+}
+
+.series div {
+    margin: 10px;
+    margin-top: 0px;
+    padding: 20px;
+    border: 3px solid white;
+    background: #fcbdb1;
+    width: 400px;
+}
+
+.seriestitle, .table {
+    border: 5px solid white;
+    border-radius: 6px;
+}
+
+.seriestitle {
+    width: 900px;
+    margin: auto;
+}
+
+/*embedded video*/
+
+.promo p {
+    bottom: 40px;
+}
+
+.promo h3 {
+
+    position: absolute;
+    right: 170px;
+    top: 65px;
+    z-index: -3;
+}
+
+/* awards */
+
+.awards, .wins {
+    color: #EE827F;
+}
+
+.table {
+    width: 780px;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+th {
+    padding-right: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+td {
+    text-align: center;
+}
+
+.achievements {
+    color: black;
+}
+
+.summary, .shows th {
+    color: #3D91D4;
+    font-family: Agrandir-Regular;
+    font-weight: bold;
+}
+
+.rv li {
+    font-size: 15pt;
+}
